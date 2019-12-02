@@ -1,0 +1,20 @@
+{
+    "name": "zimutech/amap",
+    "description": "高德地图Web服务",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sieg",
+            "email": "sieg@zimutech.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zimutech\\": "src/"
+        }
+    }
+}
